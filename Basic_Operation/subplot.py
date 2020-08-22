@@ -1,9 +1,10 @@
 '''
 @Author: zhuohoudeputao
-@LastEditors: zhuohoudeputao
-@LastEditTime: 2020-07-04 23:05:41
+LastEditors: zhuohoudeputao
+LastEditTime: 2020-08-22 15:17:50
 @Description: Use subplot to plot curves
 '''
+# %% 
 import matplotlib.pyplot as plt
 import numpy as np
 
