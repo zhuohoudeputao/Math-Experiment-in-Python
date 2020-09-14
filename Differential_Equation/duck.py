@@ -1,7 +1,7 @@
 '''
 Author: zhuohoudeputao
 LastEditors: zhuohoudeputao
-LastEditTime: 2020-08-22 16:37:14
+LastEditTime: 2020-09-05 11:41:28
 Description: file content
 '''
 # %% [markdown]
@@ -18,8 +18,6 @@ from matplotlib.pyplot import plot
 from scipy.integrate import solve_ivp
 h = 6
 # %%
-
-
 def swim_odefun(t, y):
     s = sqrt(y[0] ** 2+y[1] ** 2)
     return [0.5-1*y[0]/s, -1*y[1]/s]
